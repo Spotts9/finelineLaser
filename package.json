@@ -2,7 +2,6 @@
   "name": "material-ui-preact",
   "version": "5.0.0",
   "private": true,
-  "homepage": "http://spotts9.github.io/finelineLaser",
   "dependencies": {
     "@babel/helper-builder-react-jsx": "latest",
     "@emailjs/browser": "^4.4.1",
