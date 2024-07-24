@@ -81,7 +81,7 @@ export default function Album() {
                     spacing={2}
                     justifyContent="center"
                   >
-                    <Button color="secondary" variant="contained" href="/finelineLaser/contact">Get In Touch</Button>
+                    <Button color="secondary" variant="contained" href="/contact">Get In Touch</Button>
                   </CardActions>
                 </Card>
           </Container>

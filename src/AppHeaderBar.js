@@ -20,7 +20,7 @@ export default function AppHeaderBar() {
     <Toolbar disableGutters>
       <Tooltip title="Fine Line Laser Cutting">
       <IconButton
-        href="/finelineLaser"
+        href="/"
         size="large"
         edge="start"
         color="white"
@@ -33,8 +33,8 @@ export default function AppHeaderBar() {
       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} color="secondary" noWrap>
         Fine Line Laser Cutting
       </Typography>
-      <Button color="inherit" href='/finelineLaser/contact' target='_self'>Contact Us</Button>
-      <Button color="inherit" href='/finelineLaser/about' target='_self'>About</Button>
+      <Button color="inherit" href='/contact' target='_self'>Contact Us</Button>
+      <Button color="inherit" href='/about' target='_self'>About</Button>
       <Button color="inherit">Portfolio</Button>
     </Toolbar>
   </AppBar>

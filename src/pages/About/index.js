@@ -168,7 +168,7 @@ function AboutUs() {
                     </Typography>
                     </div>
                     <div spacing={3}>
-                    <Button color="secondary" variant="contained" href="/finelineLaser/contact">Reach Out Today</Button>
+                    <Button color="secondary" variant="contained" href="/contact">Reach Out Today</Button>
                     </div>
                   </CardActions>
                 </Card>
