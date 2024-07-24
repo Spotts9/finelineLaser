@@ -20,14 +20,14 @@ import AppHeaderBar from './AppHeaderBar';
 import AppFooter from './AppFooter';
 
 // import { Router, Route } from 'preact-router';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Router, Routes, Route } from 'react-router-dom';
 
 const defaultTheme = theme;
 
 
 export default function App() {
   return (
-    <BrowserRouter basename='finelineLaser'>
+    <BrowserRouter basename={'/finelineLaser'}>
     <ThemeProvider theme={defaultTheme}>
     {process.env.NODE_ENV === 'development' ? process.env.REACT_APP_DEV_MODE : process.env.REACT_APP_PRO_MODE}
     <CssBaseline />
@@ -39,7 +39,7 @@ export default function App() {
       <AboutUs path="/about" />
       <Error type="404" default />
     </Router> */}
-      <Route path="/" element={<Album />} />
+      <Route path="" element={<Album />} />
       <Route path="/contact" element={<ContactUs />} />
       <Route path="/about" element={<AboutUs />} />
     </Routes>
