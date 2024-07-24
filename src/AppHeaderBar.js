@@ -13,11 +13,14 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Album from './Album';
 
+import logoUrl from './assets/finelinelogo.svg';
+
 export default function AppHeaderBar() {
 
   return (
     <AppBar position="relative">
     <Toolbar disableGutters>
+
       <Tooltip title="Fine Line Laser Cutting">
       <IconButton
         href="/"

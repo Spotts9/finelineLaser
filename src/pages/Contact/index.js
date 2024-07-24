@@ -55,8 +55,8 @@ import { Routes } from 'react-router';
 
 // Image
 import bgImage from "../../assets/contactus.png";
-import davidImage from "../../assets/images/bruce-mars.jpg";
-import dennisImage from "../../assets/images/team-4.jpg";
+import davidImage from "../../assets/images/DaveContact.jpg";
+import dennisImage from "../../assets/images/DennisContact.jpg";
 
 const defaultTheme = theme;
 
